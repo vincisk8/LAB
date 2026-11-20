@@ -1,0 +1,97 @@
+{
+  "formulario": "SUPPLIER REGISTRATION / REGISTRO DE PROVEEDORES EXTRANJEROS - CORPORACIÓN ANDINA DEL PACÍFICO",
+  "tipo": "pdf",
+  "campos": [
+    {
+      "id": "e01",
+      "campo_pdf": "legal_name",
+      "etiqueta": "Company legal name",
+      "obligatorio": true
+    },
+    {
+      "id": "e02",
+      "campo_pdf": "tax_id",
+      "etiqueta": "Tax ID / RUC",
+      "obligatorio": true
+    },
+    {
+      "id": "e03",
+      "campo_pdf": "country",
+      "etiqueta": "Country of incorporation",
+      "obligatorio": true
+    },
+    {
+      "id": "e04",
+      "campo_pdf": "incorporation_date",
+      "etiqueta": "Date of incorporation",
+      "obligatorio": true,
+      "formato": "fecha"
+    },
+    {
+      "id": "e05",
+      "campo_pdf": "legal_rep",
+      "etiqueta": "Legal representative",
+      "obligatorio": true
+    },
+    {
+      "id": "e06",
+      "campo_pdf": "fiscal_year",
+      "etiqueta": "Fiscal year",
+      "obligatorio": true
+    },
+    {
+      "id": "e07",
+      "campo_pdf": "total_assets",
+      "etiqueta": "Total assets (USD)",
+      "obligatorio": true,
+      "formato": "moneda"
+    },
+    {
+      "id": "e08",
+      "campo_pdf": "total_liabilities",
+      "etiqueta": "Total liabilities (USD)",
+      "obligatorio": true,
+      "formato": "moneda"
+    },
+    {
+      "id": "e09",
+      "campo_pdf": "revenue",
+      "etiqueta": "Annual revenue (USD)",
+      "obligatorio": true,
+      "formato": "moneda"
+    },
+    {
+      "id": "e10",
+      "campo_pdf": "net_income",
+      "etiqueta": "Net income (USD)",
+      "obligatorio": true,
+      "formato": "moneda"
+    },
+    {
+      "id": "e11",
+      "campo_pdf": "current_ratio",
+      "etiqueta": "Current ratio",
+      "obligatorio": true,
+      "formato": "decimal2"
+    },
+    {
+      "id": "e12",
+      "campo_pdf": "credit_rating",
+      "etiqueta": "Credit rating",
+      "obligatorio": false
+    },
+    {
+      "id": "e13",
+      "campo_pdf": "email",
+      "etiqueta": "Contact e-mail",
+      "obligatorio": true
+    },
+    {
+      "id": "e14",
+      "campo_pdf": "date",
+      "etiqueta": "Date",
+      "obligatorio": true,
+      "formato": "fecha"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "formulario": "FORMULARIO DE VINCULACIÓN DE PROVEEDORES - INDUSTRIAS DELTA S.A.",
+  "tipo": "excel",
+  "campos": [
+    {
+      "id": "c01",
+      "celda": "C5",
+      "etiqueta": "Razón social del proveedor",
+      "obligatorio": true
+    },
+    {
+      "id": "c02",
+      "celda": "C6",
+      "etiqueta": "NIT (sin dígito de verificación)",
+      "obligatorio": true
+    },
+    {
+      "id": "c03",
+      "celda": "C7",
+      "etiqueta": "Dígito de verificación",
+      "obligatorio": true
+    },
+    {
+      "id": "c04",
+      "celda": "C8",
+      "etiqueta": "Dirección comercial",
+      "obligatorio": true,
+      "max_longitud": 80
+    },
+    {
+      "id": "c05",
+      "celda": "C9",
+      "etiqueta": "Ciudad",
+      "obligatorio": true
+    },
+    {
+      "id": "c06",
+      "celda": "C10",
+      "etiqueta": "Teléfono",
+      "obligatorio": true
+    },
+    {
+      "id": "c07",
+      "celda": "C11",
+      "etiqueta": "Correo electrónico para notificaciones",
+      "obligatorio": true
+    },
+    {
+      "id": "c08",
+      "celda": "C12",
+      "etiqueta": "Actividad económica (CIIU)",
+      "obligatorio": true
+    },
+    {
+      "id": "c09",
+      "celda": "C13",
+      "etiqueta": "Régimen tributario",
+      "obligatorio": true
+    },
+    {
+      "id": "c10",
+      "celda": "C15",
+      "etiqueta": "Nombre del representante legal",
+      "obligatorio": true
+    },
+    {
+      "id": "c11",
+      "celda": "C16",
+      "etiqueta": "Cédula del representante legal",
+      "obligatorio": true
+    },
+    {
+      "id": "c12",
+      "celda": "C18",
+      "etiqueta": "Banco",
+      "obligatorio": true
+    },
+    {
+      "id": "c13",
+      "celda": "C19",
+      "etiqueta": "Tipo de cuenta",
+      "obligatorio": true
+    },
+    {
+      "id": "c14",
+      "celda": "C20",
+      "etiqueta": "Número de cuenta",
+      "obligatorio": true
+    },
+    {
+      "id": "c15",
+      "celda": "C22",
+      "etiqueta": "Patrimonio total",
+      "obligatorio": false,
+      "formato": "moneda"
+    },
+    {
+      "id": "c16",
+      "celda": "C24",
+      "etiqueta": "Fecha de diligenciamiento",
+      "obligatorio": true,
+      "formato": "fecha"
+    }
+  ]
+}

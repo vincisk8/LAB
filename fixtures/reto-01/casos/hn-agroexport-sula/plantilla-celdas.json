@@ -1,0 +1,82 @@
+{
+  "formulario": "FICHA DE REGISTRO DE PROVEEDORES - AGROEXPORTADORA DEL VALLE DE SULA",
+  "tipo": "excel",
+  "campos": [
+    {
+      "id": "h01",
+      "celda": "C4",
+      "etiqueta": "Nombre o razón social",
+      "obligatorio": true
+    },
+    {
+      "id": "h02",
+      "celda": "C5",
+      "etiqueta": "RTN / Identificación tributaria",
+      "obligatorio": true
+    },
+    {
+      "id": "h03",
+      "celda": "C6",
+      "etiqueta": "Domicilio",
+      "obligatorio": true
+    },
+    {
+      "id": "h04",
+      "celda": "C7",
+      "etiqueta": "País de origen",
+      "obligatorio": true
+    },
+    {
+      "id": "h05",
+      "celda": "C8",
+      "etiqueta": "Representante legal",
+      "obligatorio": true
+    },
+    {
+      "id": "h06",
+      "celda": "C9",
+      "etiqueta": "Identidad del representante",
+      "obligatorio": true
+    },
+    {
+      "id": "h07",
+      "celda": "C10",
+      "etiqueta": "Número de empleados",
+      "obligatorio": true,
+      "formato": "numero"
+    },
+    {
+      "id": "h08",
+      "celda": "C11",
+      "etiqueta": "Certificaciones de calidad",
+      "obligatorio": false,
+      "formato": "lista"
+    },
+    {
+      "id": "h09",
+      "celda": "C12",
+      "etiqueta": "Registro de proveedor del Estado (ONCAE)",
+      "obligatorio": true
+    },
+    {
+      "id": "h10",
+      "celda": "C13",
+      "etiqueta": "Teléfono de contacto",
+      "obligatorio": true
+    },
+    {
+      "id": "h11",
+      "celda": "C14",
+      "etiqueta": "Nivel de endeudamiento",
+      "obligatorio": false,
+      "formato": "porcentaje"
+    },
+    {
+      "id": "h12",
+      "celda": "C16",
+      "etiqueta": "Fecha",
+      "obligatorio": true,
+      "formato": "fecha"
+    }
+  ]
+}

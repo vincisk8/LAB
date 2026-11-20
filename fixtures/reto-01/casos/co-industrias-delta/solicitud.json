@@ -1,0 +1,41 @@
+{
+  "id": "co-industrias-delta",
+  "radicado": "ID-COMPRAS-2026-0871",
+  "cliente": {
+    "razon_social": "Industrias Delta S.A.",
+    "pais": "Colombia",
+    "codigo_pais": "CO",
+    "contacto": "compras@industriasdelta.example"
+  },
+  "proceso": "Actualización anual de proveedores de servicios TI 2027",
+  "fecha_solicitud": "2026-11-10",
+  "fecha_limite_entrega": "2026-11-27",
+  "moneda_reporte": "COP",
+  "locale": "es-CO",
+  "formato_fecha": "DD/MM/YYYY",
+  "formulario": {
+    "tipo": "excel",
+    "archivo": "formulario.xlsx",
+    "hoja": "Vinculacion",
+    "plantilla": "plantilla-celdas.json"
+  },
+  "soportes_requeridos": [
+    {
+      "descripcion": "Certificado de existencia y representación legal con expedición no mayor a 30 días",
+      "obligatorio": true
+    },
+    {
+      "descripcion": "RUT actualizado",
+      "obligatorio": true
+    },
+    {
+      "descripcion": "Certificación bancaria no mayor a 30 días",
+      "obligatorio": true
+    },
+    {
+      "descripcion": "Certificación de aportes parafiscales y seguridad social no mayor a 30 días",
+      "obligatorio": true
+    }
+  ],
+  "observaciones": "Diligenciar todas las celdas en amarillo. El formulario debe venir firmado por el representante legal."
+}

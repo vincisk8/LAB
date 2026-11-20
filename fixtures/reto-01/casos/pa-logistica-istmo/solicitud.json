@@ -1,0 +1,36 @@
+{
+  "id": "pa-logistica-istmo",
+  "radicado": "LII-ADQ-2026-207",
+  "cliente": {
+    "razon_social": "Logística Integral del Istmo, S.A.",
+    "pais": "Panamá",
+    "codigo_pais": "PA",
+    "contacto": "adquisiciones@logistmo.example"
+  },
+  "proceso": "Inscripción de proveedores - plataforma de trazabilidad portuaria",
+  "fecha_solicitud": "2026-11-14",
+  "fecha_limite_entrega": "2026-11-26",
+  "moneda_reporte": "USD",
+  "locale": "es-CO",
+  "formato_fecha": "DD/MM/YYYY",
+  "formulario": {
+    "tipo": "pdf",
+    "archivo": "formulario.pdf",
+    "plantilla": "plantilla-campos.json"
+  },
+  "soportes_requeridos": [
+    {
+      "descripcion": "Certificado de cámara de comercio no mayor a 30 días",
+      "obligatorio": true
+    },
+    {
+      "descripcion": "Referencia bancaria con expedición no superior a 15 días",
+      "obligatorio": true
+    },
+    {
+      "descripcion": "Certificado ISO 9001 (deseable)",
+      "obligatorio": false
+    }
+  ],
+  "observaciones": "La dirección debe caber en el campo del formulario (máximo 40 caracteres)."
+}

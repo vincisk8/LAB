@@ -1,0 +1,69 @@
+{
+  "version": "2026.11",
+  "actualizado": "2026-11-15",
+  "empresa": {
+    "razon_social": "Periferia IT Group S.A.S.",
+    "nit": "900123456",
+    "nit_dv": "8",
+    "tipo_sociedad": "Sociedad por Acciones Simplificada",
+    "fecha_constitucion": "2008-03-14",
+    "matricula_mercantil": "01789456",
+    "ciiu": "6201",
+    "ciiu_descripcion": "Actividades de desarrollo de sistemas informáticos",
+    "regimen_tributario": "Responsable de IVA - Régimen ordinario",
+    "gran_contribuyente": false,
+    "autorretenedor": false,
+    "direccion": "Carrera 7 # 71-21, Torre B, Oficina 1203, Edificio Bancafé",
+    "ciudad": "Bogotá D.C.",
+    "departamento": "Cundinamarca",
+    "pais": "Colombia",
+    "codigo_postal": "110231",
+    "telefono": "+57 601 7456789",
+    "email_notificaciones": "licitaciones@periferia-it.example",
+    "sitio_web": "https://periferia-it.example",
+    "numero_empleados": 420,
+    "certificaciones": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ]
+  },
+  "representante_legal": {
+    "nombre": "Laura Marcela Gómez Rincón",
+    "tipo_documento": "CC",
+    "numero_documento": "52345678",
+    "cargo": "Representante Legal - Gerente General",
+    "email": "representacion.legal@periferia-it.example",
+    "telefono": "+57 310 5551234"
+  },
+  "contacto_comercial": {
+    "nombre": "Andrés Felipe Rojas",
+    "cargo": "Director Comercial",
+    "email": "comercial@periferia-it.example",
+    "telefono": "+57 315 5559876"
+  },
+  "bancario": {
+    "entidad": "Bancolombia S.A.",
+    "tipo_cuenta": "Corriente",
+    "numero_cuenta": "12345678901",
+    "titular": "Periferia IT Group S.A.S.",
+    "codigo_swift": "COLOCOBM"
+  },
+  "financiero": {
+    "anio_fiscal": 2025,
+    "moneda": "COP",
+    "activos_totales": 18500000000,
+    "activo_corriente": 9800000000,
+    "pasivos_totales": 7200000000,
+    "pasivo_corriente": 4100000000,
+    "patrimonio": 11300000000,
+    "ingresos_operacionales": 32400000000,
+    "utilidad_neta": 2150000000
+  },
+  "tasas_cambio": {
+    "USD": {
+      "valor": 4012.35,
+      "fecha": "2026-11-18",
+      "fuente": "TRM certificada (dato de fixture)"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# Alternativa: Fly.io →  fly launch --no-deploy && fly secrets set ANTHROPIC_API_KEY=... ACCESS_CODE=... && fly deploy
+app = "agente-proveedores-periferia"
+primary_region = "bog"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "3000"
+  FECHA_REFERENCIA = "2026-11-19"
+  ANTHROPIC_MODEL = "claude-sonnet-5-5"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 1
+
+  [[http_service.checks]]
+    grace_period = "10s"
+    interval = "30s"
+    method = "GET"
+    path = "/api/salud"
+    timeout = "3s"

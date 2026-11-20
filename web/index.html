@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Registro como Proveedor · Agente</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="marca">
+      <div class="logo">P</div>
+      <div>
+        <h1>Agente · Registro como Proveedor</h1>
+        <p>Solicitud → maestro → formulario → paquete para firma (nunca firma ni envía sin tu confirmación)</p>
+      </div>
+    </div>
+    <div class="meta">
+      <span id="badge-modelo" class="badge">…</span>
+      <button id="btn-reiniciar" class="btn-ghost" title="Nueva conversación">↺ Nueva sesión</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="lateral">
+      <h2>Casos</h2>
+      <button class="chip" data-msg="¿Qué solicitudes hay disponibles?">📋 Ver solicitudes</button>
+      <button class="chip" data-msg='Procesa el caso "co-industrias-delta". Dime qué campos quedaron llenos, cuáles faltan, si el paquete está listo para firma y qué soportes debo actualizar. No envíes nada todavía.'>🇨🇴 co-industrias-delta</button>
+      <button class="chip" data-msg='Procesa el caso "ec-corp-andina". Dime qué campos quedaron llenos, cuáles faltan, si el paquete está listo para firma y qué soportes debo actualizar. No envíes nada todavía.'>🇪🇨 ec-corp-andina</button>
+      <button class="chip" data-msg='Procesa el caso "hn-agroexport-sula". Dime qué campos quedaron llenos, cuáles faltan, si el paquete está listo para firma y qué soportes debo actualizar. No envíes nada todavía.'>🇭🇳 hn-agroexport-sula</button>
+      <button class="chip" data-msg='Procesa el caso "pa-logistica-istmo". Dime qué campos quedaron llenos, cuáles faltan, si el paquete está listo para firma y qué soportes debo actualizar. No envíes nada todavía.'>🇵🇦 pa-logistica-istmo</button>
+      <h2>Leyenda</h2>
+      <ul class="leyenda">
+        <li><span class="dot dot-herr"></span> Llamada a herramienta</li>
+        <li><span class="dot dot-conf"></span> El agente pide confirmación</li>
+      </ul>
+      <p class="nota">El envío solo se simula (<code>ENVIO-SIMULADO.md</code>) y exige que tu mensaje inmediatamente siguiente lo confirme. El servidor lo verifica, no solo el modelo.</p>
+    </aside>
+
+    <main class="chat">
+      <div id="mensajes" class="mensajes" aria-live="polite">
+        <div class="bienvenida">
+          <h2>Hola 👋</h2>
+          <p>Elige un caso o escribe: <em>«Procesa el caso "ec-corp-andina"»</em>.</p>
+        </div>
+      </div>
+      <form id="form" class="entrada">
+        <textarea id="texto" rows="1" placeholder="Escribe tu mensaje… (Enter envía, Shift+Enter nueva línea)" autocomplete="off"></textarea>
+        <button id="btn-enviar" type="submit">Enviar</button>
+      </form>
+    </main>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

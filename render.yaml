@@ -1,0 +1,19 @@
+# Despliegue en Render (Blueprint): New → Blueprint → seleccionar este repositorio.
+services:
+  - type: web
+    name: agente-proveedores-periferia
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/salud
+    autoDeploy: true
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false          # se ingresa en el dashboard (secreto)
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5-5
+      - key: FECHA_REFERENCIA
+        value: "2026-11-19"
+      - key: ACCESS_CODE
+        sync: false
+      - key: RATE_LIMIT_PER_MIN
+        value: "20"

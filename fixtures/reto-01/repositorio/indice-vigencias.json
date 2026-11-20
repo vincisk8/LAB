@@ -1,0 +1,70 @@
+{
+  "version": "2026.11",
+  "descripcion": "Índice de soportes corporativos. vigencia_dias = vigencia interna máxima desde fecha_emision. El cliente puede exigir una vigencia más estricta.",
+  "soportes": [
+    {
+      "id": "SOP-CC-2026-11",
+      "tipo": "camara_comercio",
+      "nombre": "Certificado de existencia y representación legal (Cámara de Comercio de Bogotá)",
+      "archivo": "camara_comercio_2026-11-03.pdf",
+      "fecha_emision": "2026-11-03",
+      "vigencia_dias": 30
+    },
+    {
+      "id": "SOP-RUT-2026",
+      "tipo": "rut",
+      "nombre": "Registro Único Tributario (RUT) - DIAN",
+      "archivo": "rut_2026-02-10.pdf",
+      "fecha_emision": "2026-02-10",
+      "vigencia_dias": 365
+    },
+    {
+      "id": "SOP-CB-2026-10",
+      "tipo": "certificacion_bancaria",
+      "nombre": "Certificación bancaria Bancolombia",
+      "archivo": "certificacion_bancaria_2026-10-30.pdf",
+      "fecha_emision": "2026-10-30",
+      "vigencia_dias": 30
+    },
+    {
+      "id": "SOP-EF-2025",
+      "tipo": "estados_financieros",
+      "nombre": "Estados financieros dictaminados a 31-dic-2025",
+      "archivo": "estados_financieros_2025.pdf",
+      "fecha_emision": "2026-03-15",
+      "vigencia_dias": 410
+    },
+    {
+      "id": "SOP-PF-2026-10",
+      "tipo": "certificado_parafiscales",
+      "nombre": "Certificación de pago de aportes parafiscales y seguridad social (Revisor Fiscal)",
+      "archivo": "parafiscales_2026-10-05.pdf",
+      "fecha_emision": "2026-10-05",
+      "vigencia_dias": 30
+    },
+    {
+      "id": "SOP-PF-2026-11",
+      "tipo": "certificado_parafiscales",
+      "nombre": "Certificación de pago de aportes parafiscales y seguridad social (Revisor Fiscal)",
+      "archivo": "parafiscales_2026-11-12.pdf",
+      "fecha_emision": "2026-11-12",
+      "vigencia_dias": 30
+    },
+    {
+      "id": "SOP-ISO27001",
+      "tipo": "certificado_iso_27001",
+      "nombre": "Certificado ISO/IEC 27001:2022",
+      "archivo": "iso27001_2025-06-20.pdf",
+      "fecha_emision": "2025-06-20",
+      "vigencia_dias": 1095
+    },
+    {
+      "id": "SOP-ISO9001",
+      "tipo": "certificado_iso_9001",
+      "nombre": "Certificado ISO 9001:2015",
+      "archivo": "iso9001_2024-09-02.pdf",
+      "fecha_emision": "2024-09-02",
+      "vigencia_dias": 1095
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "descripcion": "Reglas de negocio del registro como proveedor (PRD §7.3). Las herramientas las leen de aquí: cambiar una regla no toca el servidor ni el código.",
+  "pais_maestro": "CO",
+  "paises": {
+    "CO": { "nombre": "Colombia", "identificador_tributario": "NIT" },
+    "EC": { "nombre": "Ecuador", "identificador_tributario": "RUC" },
+    "PE": { "nombre": "Perú", "identificador_tributario": "RUC" },
+    "PA": { "nombre": "Panamá", "identificador_tributario": "RUC" },
+    "HN": { "nombre": "Honduras", "identificador_tributario": "RTN" }
+  },
+  "claves_identificador_tributario": ["nit", "digito_verificacion"],
+  "etiquetas_identificador_ambiguas": [
+    "identificacion tributaria",
+    "numero de identificacion tributaria",
+    "identificacion fiscal",
+    "id tributario",
+    "tax id"
+  ],
+  "claves_bancarias": ["banco.entidad", "banco.tipo_cuenta", "banco.numero_cuenta", "banco.titular"],
+  "umbral_confianza": 0.8,
+  "umbral_minimo": 0.5,
+  "alias_soportes": {
+    "camara_comercio": ["camara de comercio", "certificado de camara de comercio", "certificado de existencia y representacion legal"],
+    "rut": ["registro unico tributario", "registro tributario"],
+    "certificacion_bancaria": ["certificado bancario", "referencia bancaria"],
+    "parafiscales": ["aportes parafiscales", "certificado de parafiscales", "constancia de pago de parafiscales"],
+    "estados_financieros": ["estados financieros", "balance general"],
+    "certificado_iso_27001": ["iso 27001", "certificado iso 27001", "iso iec 27001"]
+  },
+  "confirmacion": {
+    "afirmativas": ["si", "confirmo", "confirmado", "confirma", "envia", "envialo", "enviar", "enviarlo", "procede", "adelante", "dale", "de acuerdo", "hazlo", "autorizo", "apruebo", "ok"],
+    "negativas": ["no", "nada", "todavia", "aun", "espera", "cancela", "cancelar", "detente", "alto", "luego", "despues"]
+  }
+}

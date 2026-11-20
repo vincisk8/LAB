@@ -1,0 +1,41 @@
+{
+  "id": "hn-agroexport-sula",
+  "radicado": "AVS-REG-2026-033",
+  "cliente": {
+    "razon_social": "Agroexportadora del Valle de Sula S. de R.L.",
+    "pais": "Honduras",
+    "codigo_pais": "HN",
+    "contacto": "proveedores@agrosula.example"
+  },
+  "proceso": "Registro de proveedor para implementación de ERP agrícola",
+  "fecha_solicitud": "2026-11-05",
+  "fecha_limite_entrega": "2026-11-25",
+  "moneda_reporte": "COP",
+  "locale": "es-CO",
+  "formato_fecha": "DD/MM/YYYY",
+  "formulario": {
+    "tipo": "excel",
+    "archivo": "formulario.xlsx",
+    "hoja": "Registro",
+    "plantilla": "plantilla-celdas.json"
+  },
+  "soportes_requeridos": [
+    {
+      "descripcion": "Certificado de existencia y representación legal no mayor a 30 días",
+      "obligatorio": true
+    },
+    {
+      "descripcion": "Registro tributario (RUT) del país de origen",
+      "obligatorio": true
+    },
+    {
+      "descripcion": "Certificado ISO 27001 vigente",
+      "obligatorio": true
+    },
+    {
+      "descripcion": "Carta de referencia comercial de un cliente en la región",
+      "obligatorio": true
+    }
+  ],
+  "observaciones": "Si el proveedor no está inscrito en ONCAE indicar 'En trámite'."
+}

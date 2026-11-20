@@ -1,0 +1,274 @@
+{
+  "version": "1.0",
+  "descripcion": "Sinónimos usados por los clientes → clave maestra del repositorio de Periferia.",
+  "campos": {
+    "razon_social": [
+      "razón social",
+      "razon social del proveedor",
+      "nombre o razón social",
+      "nombre de la empresa",
+      "company legal name",
+      "legal name",
+      "denominación social",
+      "proveedor"
+    ],
+    "nit": [
+      "nit",
+      "nit sin dígito de verificación",
+      "ruc",
+      "rtn",
+      "tax id",
+      "identificación tributaria",
+      "número de identificación tributaria",
+      "rtn / identificación tributaria",
+      "tax id / ruc",
+      "nit / ruc / rtn"
+    ],
+    "nit_dv": [
+      "dígito de verificación",
+      "dv",
+      "check digit"
+    ],
+    "nit_completo": [
+      "nit con dígito de verificación",
+      "nit completo"
+    ],
+    "tipo_sociedad": [
+      "tipo de sociedad",
+      "naturaleza jurídica",
+      "legal form"
+    ],
+    "fecha_constitucion": [
+      "fecha de constitución",
+      "date of incorporation",
+      "fecha de creación de la empresa"
+    ],
+    "matricula_mercantil": [
+      "matrícula mercantil",
+      "número de matrícula",
+      "registro mercantil"
+    ],
+    "ciiu": [
+      "actividad económica",
+      "actividad económica ciiu",
+      "código ciiu",
+      "economic activity code"
+    ],
+    "regimen_tributario": [
+      "régimen tributario",
+      "régimen de iva",
+      "tax regime"
+    ],
+    "direccion": [
+      "dirección",
+      "dirección comercial",
+      "domicilio",
+      "domicilio principal",
+      "address",
+      "business address"
+    ],
+    "ciudad": [
+      "ciudad",
+      "city",
+      "municipio"
+    ],
+    "pais": [
+      "país",
+      "país de constitución",
+      "country",
+      "country of incorporation",
+      "país de origen"
+    ],
+    "telefono": [
+      "teléfono",
+      "teléfono de contacto",
+      "phone",
+      "telephone",
+      "número telefónico"
+    ],
+    "email_notificaciones": [
+      "correo electrónico",
+      "correo electrónico para notificaciones",
+      "email",
+      "e-mail",
+      "contact e-mail",
+      "correo",
+      "correo de contacto"
+    ],
+    "sitio_web": [
+      "sitio web",
+      "página web",
+      "website"
+    ],
+    "numero_empleados": [
+      "número de empleados",
+      "cantidad de trabajadores",
+      "number of employees",
+      "planta de personal"
+    ],
+    "certificaciones": [
+      "certificaciones",
+      "certificaciones de calidad",
+      "quality certifications",
+      "normas certificadas"
+    ],
+    "rep_legal_nombre": [
+      "representante legal",
+      "nombre del representante legal",
+      "legal representative",
+      "nombre rep. legal"
+    ],
+    "rep_legal_tipo_doc": [
+      "tipo de documento del representante legal",
+      "tipo documento rep. legal"
+    ],
+    "rep_legal_documento": [
+      "cédula del representante legal",
+      "documento del representante legal",
+      "identidad del representante",
+      "cédula/pasaporte rep. legal",
+      "legal representative id",
+      "número de identificación del representante legal"
+    ],
+    "rep_legal_cargo": [
+      "cargo del representante legal",
+      "cargo"
+    ],
+    "rep_legal_email": [
+      "correo del representante legal",
+      "legal representative e-mail"
+    ],
+    "banco_entidad": [
+      "banco",
+      "entidad bancaria",
+      "bank",
+      "bank name"
+    ],
+    "banco_tipo_cuenta": [
+      "tipo de cuenta",
+      "account type"
+    ],
+    "banco_numero_cuenta": [
+      "número de cuenta",
+      "número de cuenta bancaria",
+      "account number",
+      "cuenta"
+    ],
+    "banco_titular": [
+      "titular de la cuenta",
+      "account holder"
+    ],
+    "banco_swift": [
+      "swift",
+      "código swift",
+      "swift code",
+      "bic"
+    ],
+    "anio_fiscal": [
+      "año fiscal",
+      "fiscal year",
+      "año de los estados financieros"
+    ],
+    "activos_totales": [
+      "activos totales",
+      "activo total",
+      "total assets"
+    ],
+    "activo_corriente": [
+      "activo corriente",
+      "current assets"
+    ],
+    "pasivos_totales": [
+      "pasivos totales",
+      "pasivo total",
+      "total liabilities"
+    ],
+    "pasivo_corriente": [
+      "pasivo corriente",
+      "current liabilities"
+    ],
+    "patrimonio": [
+      "patrimonio",
+      "patrimonio total",
+      "equity",
+      "total equity"
+    ],
+    "ingresos_operacionales": [
+      "ingresos operacionales",
+      "ingresos anuales",
+      "annual revenue",
+      "ventas anuales",
+      "revenue"
+    ],
+    "utilidad_neta": [
+      "utilidad neta",
+      "net income",
+      "resultado del ejercicio"
+    ],
+    "indice_liquidez": [
+      "índice de liquidez",
+      "razón corriente",
+      "current ratio",
+      "liquidez"
+    ],
+    "nivel_endeudamiento": [
+      "nivel de endeudamiento",
+      "índice de endeudamiento",
+      "debt ratio",
+      "endeudamiento"
+    ],
+    "fecha_diligenciamiento": [
+      "fecha de diligenciamiento",
+      "fecha",
+      "date",
+      "fecha de presentación"
+    ]
+  },
+  "soportes": {
+    "camara_comercio": [
+      "cámara de comercio",
+      "certificado de existencia y representación legal",
+      "certificate of incorporation",
+      "certificado de cámara de comercio",
+      "registro mercantil vigente"
+    ],
+    "rut": [
+      "rut",
+      "registro único tributario",
+      "registro tributario"
+    ],
+    "certificacion_bancaria": [
+      "certificación bancaria",
+      "certificado bancario",
+      "bank certificate",
+      "bank reference letter",
+      "referencia bancaria"
+    ],
+    "estados_financieros": [
+      "estados financieros",
+      "financial statements",
+      "balance general y estado de resultados"
+    ],
+    "certificado_parafiscales": [
+      "parafiscales",
+      "certificado de parafiscales",
+      "aportes parafiscales",
+      "seguridad social y parafiscales",
+      "certificación de aportes"
+    ],
+    "certificado_iso_27001": [
+      "iso 27001",
+      "certificado iso 27001",
+      "iso/iec 27001"
+    ],
+    "certificado_iso_9001": [
+      "iso 9001",
+      "certificado iso 9001"
+    ],
+    "carta_referencia_comercial": [
+      "carta de referencia comercial",
+      "referencia comercial",
+      "commercial reference"
+    ]
+  }
+}

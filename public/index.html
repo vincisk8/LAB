@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agente de Vinculación de Proveedores · Periferia IT Group</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="marca">
+      <div class="logo">P</div>
+      <div>
+        <h1>Agente de Vinculación de Proveedores</h1>
+        <p>Solicitud del cliente → repositorio maestro → formulario → paquete para firma</p>
+      </div>
+    </div>
+    <div class="meta">
+      <span id="badge-modo" class="badge">…</span>
+      <span id="badge-fecha" class="badge sutil">…</span>
+      <button id="btn-reiniciar" class="btn-ghost" title="Nueva conversación">↺ Nueva sesión</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="lateral">
+      <h2>Casos de prueba</h2>
+      <button class="chip" data-msg="¿Qué solicitudes tenemos pendientes?">📋 Ver solicitudes</button>
+      <button class="chip" data-msg="Procesa la solicitud de Industrias Delta (co-industrias-delta)">🇨🇴 Industrias Delta</button>
+      <button class="chip" data-msg="Procesa la solicitud de Corporación Andina (ec-corp-andina)">🇪🇨 Corp. Andina</button>
+      <button class="chip" data-msg="Procesa la solicitud de Agroexportadora Sula (hn-agroexport-sula)">🇭🇳 Agroexport Sula</button>
+      <button class="chip" data-msg="Procesa la solicitud de Logística del Istmo (pa-logistica-istmo)">🇵🇦 Logística Istmo</button>
+      <h2>Leyenda</h2>
+      <ul class="leyenda">
+        <li><span class="dot dot-herr"></span> Llamada a herramienta</li>
+        <li><span class="dot dot-conf"></span> Requiere confirmación humana</li>
+        <li>⛔ Bloqueante · ⚠️ Advertencia · ℹ️ Info</li>
+      </ul>
+      <p class="nota">El agente nunca arma el paquete sin tu aprobación. La aprobación se valida en el servidor, no en el modelo.</p>
+    </aside>
+
+    <main class="chat">
+      <div id="mensajes" class="mensajes" aria-live="polite">
+        <div class="bienvenida">
+          <h2>Hola 👋</h2>
+          <p>Elige un caso a la izquierda o escribe, por ejemplo: <em>«Procesa la solicitud de Panamá»</em>.</p>
+        </div>
+      </div>
+      <form id="form" class="entrada">
+        <textarea id="texto" rows="1" placeholder="Escribe tu mensaje… (Enter para enviar, Shift+Enter para nueva línea)" autocomplete="off"></textarea>
+        <button id="btn-enviar" type="submit">Enviar</button>
+      </form>
+    </main>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

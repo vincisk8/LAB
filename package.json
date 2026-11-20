@@ -1,0 +1,32 @@
+{
+  "name": "reto1-agente-proveedores",
+  "version": "1.0.0",
+  "description": "Agente conversacional que diligencia formularios de vinculación de proveedores y arma el paquete para firma del representante legal (Reto 1 - Periferia IT Group)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20",
+    "bun": ">=1.1"
+  },
+  "scripts": {
+    "dev": "bun --watch src/server.ts",
+    "start": "bun src/server.ts",
+    "demo": "bun demo.ts",
+    "demo:check": "bun demo.ts --check",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "fixtures": "bun scripts/generar-fixtures.ts",
+    "costos": "bun scripts/costos.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.11.0",
+    "exceljs": "^4.4.0",
+    "jszip": "^3.10.2",
+    "pdf-lib": "^1.17.1",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  }
+}

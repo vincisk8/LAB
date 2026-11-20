@@ -1,0 +1,86 @@
+{
+  "formulario": "FORMULARIO DE INSCRIPCIÓN DE PROVEEDORES - LOGÍSTICA INTEGRAL DEL ISTMO, S.A.",
+  "tipo": "pdf",
+  "campos": [
+    {
+      "id": "p01",
+      "campo_pdf": "razon_social",
+      "etiqueta": "Razón Social",
+      "obligatorio": true
+    },
+    {
+      "id": "p02",
+      "campo_pdf": "ruc",
+      "etiqueta": "RUC",
+      "obligatorio": true
+    },
+    {
+      "id": "p03",
+      "campo_pdf": "dv",
+      "etiqueta": "DV",
+      "obligatorio": true
+    },
+    {
+      "id": "p04",
+      "campo_pdf": "direccion",
+      "etiqueta": "Dirección",
+      "obligatorio": true,
+      "max_longitud": 40
+    },
+    {
+      "id": "p05",
+      "campo_pdf": "rep_legal",
+      "etiqueta": "Representante Legal",
+      "obligatorio": true
+    },
+    {
+      "id": "p06",
+      "campo_pdf": "doc_rep_legal",
+      "etiqueta": "Cédula/Pasaporte Rep. Legal",
+      "obligatorio": true
+    },
+    {
+      "id": "p07",
+      "campo_pdf": "banco",
+      "etiqueta": "Banco",
+      "obligatorio": true
+    },
+    {
+      "id": "p08",
+      "campo_pdf": "tipo_cuenta",
+      "etiqueta": "Tipo de cuenta",
+      "obligatorio": true
+    },
+    {
+      "id": "p09",
+      "campo_pdf": "numero_cuenta",
+      "etiqueta": "Número de cuenta",
+      "obligatorio": true
+    },
+    {
+      "id": "p10",
+      "campo_pdf": "swift",
+      "etiqueta": "Código SWIFT",
+      "obligatorio": true
+    },
+    {
+      "id": "p11",
+      "campo_pdf": "correo",
+      "etiqueta": "Correo",
+      "obligatorio": true
+    },
+    {
+      "id": "p12",
+      "campo_pdf": "telefono",
+      "etiqueta": "Teléfono",
+      "obligatorio": true
+    },
+    {
+      "id": "p13",
+      "campo_pdf": "fecha",
+      "etiqueta": "Fecha",
+      "obligatorio": true,
+      "formato": "fecha"
+    }
+  ]
+}

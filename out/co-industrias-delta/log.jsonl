@@ -1,0 +1,3 @@
+{"ts":"2026-11-20T14:28:41.075Z","sesion":"demo","herramienta":"proveedor_leer_solicitud","caso":"co-industrias-delta","ok":true,"resumen":"Industrias Delta S.A. · CO · xlsx · 12 campos · 3 soportes"}
+{"ts":"2026-11-20T14:28:41.084Z","sesion":"demo","herramienta":"proveedor_mapear_campos","caso":"co-industrias-delta","ok":true,"resumen":"12 llenos, 0 faltantes, 0 por confirmar"}
+{"ts":"2026-11-20T14:28:41.191Z","sesion":"demo","herramienta":"proveedor_generar_formulario","caso":"co-industrias-delta","ok":true,"resumen":"out/co-industrias-delta/formulario.xlsx (12 escritos, 0 vacíos)"}

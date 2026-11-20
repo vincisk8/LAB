@@ -1,0 +1,42 @@
+{
+  "razon_social": "Periferia IT Group S.A.S.",
+  "nombre_comercial": "Periferia IT Group",
+  "nit": "900.123.456-8",
+  "digito_verificacion": "8",
+  "tipo_persona": "Jurídica",
+  "fecha_constitucion": "2008-03-14",
+  "direccion": "Carrera 7 # 71-21, Torre B, Oficina 1203",
+  "ciudad": "Bogotá D.C.",
+  "pais": "Colombia",
+  "telefono": "+57 601 745 6789",
+  "correo_contacto": "proveedores@periferia-it.example",
+  "sitio_web": "https://periferia-it.example",
+  "ciiu": "6201",
+  "actividad_economica": "Actividades de desarrollo de sistemas informáticos",
+  "regimen_tributario": "Responsable de IVA",
+  "numero_empleados": 420,
+  "representante_legal": {
+    "nombre": "Laura Marcela Gómez Rincón",
+    "documento": "CC 52.345.678",
+    "cargo": "Gerente General y Representante Legal",
+    "correo": "representacion.legal@periferia-it.example"
+  },
+  "banco": {
+    "entidad": "Bancolombia S.A.",
+    "tipo_cuenta": "Corriente",
+    "numero_cuenta": "123-456789-01",
+    "titular": "Periferia IT Group S.A.S."
+  },
+  "contactos": {
+    "comercial": {
+      "nombre": "Andrés Felipe Rojas",
+      "correo": "comercial@periferia-it.example",
+      "telefono": "+57 315 555 9876"
+    },
+    "cartera": {
+      "nombre": "Diana Patricia Suárez",
+      "correo": "cartera@periferia-it.example",
+      "telefono": "+57 601 745 6790"
+    }
+  }
+}

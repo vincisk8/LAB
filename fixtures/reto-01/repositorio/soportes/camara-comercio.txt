@@ -1,0 +1,4 @@
+PLACEHOLDER (fixture reconstruido, sin validez legal)
+Tipo: camara_comercio
+Titular: Periferia IT Group S.A.S. - NIT 900.123.456-8
+Vigencia hasta: 2027-06-30

@@ -1,0 +1,4 @@
+PLACEHOLDER (fixture reconstruido, sin validez legal)
+Tipo: rut
+Titular: Periferia IT Group S.A.S. - NIT 900.123.456-8
+Vigencia hasta: sin vencimiento
